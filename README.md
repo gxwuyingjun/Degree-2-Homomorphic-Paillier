@@ -15,7 +15,7 @@ Paillier functions including encryption and decryption function are from [pailli
 ## Files included
 ```
 Multiplicative-Homomorphic-Paillier
-+-- scr
++-- src
 |	+-- paillier.c
 |	+-- paillier_mh.c (core implementation file)
 |	+-- test.c (main)
