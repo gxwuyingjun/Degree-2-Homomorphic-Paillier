@@ -1,6 +1,6 @@
-# Paillier-Multiplivative-Homomorphic
+# Degree-2-Homomorphic-Paillier
 
-The main idea of this repo is to prove the feasability of achieving multiplicative homomorphic uisng addictive homomorphic encryption method (paillier).
+The main idea of this repo is to boost paillier encryption function to support degree-2 homomorphic encryption.(somewhat full homomorphic even though it's only 2-d XD)
 
 ## Reference
 Catalano, D., & Fiore. (2015). *Using linearly-homomorphic encryption to evaluate degree-2 functions on encrypted data*. Proceedings of the ACM Conference on Computer and Communications Security, 2015, 1518-1529.
@@ -14,7 +14,7 @@ Paillier functions including encryption and decryption function are from [pailli
 
 ## Files included
 ```
-Multiplicative-Homomorphic-Paillier
+Degree-2-Homomorphic-Paillier
 +-- src
 |	+-- paillier.c
 |	+-- paillier_mh.c (core implementation file)
