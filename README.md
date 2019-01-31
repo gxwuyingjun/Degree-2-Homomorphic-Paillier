@@ -14,18 +14,17 @@ Paillier functions including encryption and decryption function are from [pailli
 
 ## Files included
 ```
-Degree-2-Homomorphic-Paillier
-+-- src
-|	+-- paillier.c
-|	+-- paillier_mh.c (core implementation file)
-|	+-- test.c (main)
-|
-+-- include
-|	+-- paillier.h
-|	+-- paillier_mh.h
-|	
-+-- README.md
-+-- test (binary file)
+.
+├── include
+│   ├── paillier.h
+│   └── paillier_mh.h
+├── README.md
+├── src
+│   ├── paillier.c
+│   ├── paillier_mh.c
+│   ├── test
+│   └── test.c
+└── test
 ```
 ## Prequisite
 - [GNU MP Library](https://gmplib.org/), download and install instruction can be found on its official website.
